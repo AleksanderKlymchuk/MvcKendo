@@ -1,0 +1,375 @@
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\Antlr3.Runtime.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Helpers.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Optimization.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Razor.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.Razor.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\WebGrease.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Helpers.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Mvc.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Optimization.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.Razor.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\System.Web.WebPages.Razor.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\Newtonsoft.Json.xml
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\bin\Antlr3.Runtime.pdb
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Documents\GitHub\PetHotel\PetHotel\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.Helpers.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.Optimization.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.Razor.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.WebPages.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\System.Web.WebPages.Razor.xml
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\bin\Antlr3.Runtime.pdb
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Documents\GitHub\Backend\ViewModel\obj\Debug\ViewModel.pdb
+D:\Dropbox\web dev\backend\ViewModel\bin\ViewModel.dll.config
+D:\Dropbox\web dev\backend\ViewModel\bin\ViewModel.dll
+D:\Dropbox\web dev\backend\ViewModel\bin\ViewModel.pdb
+D:\Dropbox\web dev\backend\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\web dev\backend\ViewModel\bin\Newtonsoft.Json.dll
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.Mvc.dll
+D:\Dropbox\web dev\backend\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.Helpers.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.Optimization.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.Razor.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.WebPages.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\web dev\backend\ViewModel\bin\Antlr3.Runtime.pdb
+D:\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+D:\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.dll
+D:\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\EntityFramework.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\EntityFramework.xml
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Dropbox\web dev\backend\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\EntityFramework.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\EntityFramework.xml
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\project\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\EntityFramework.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\EntityFramework.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Google Drive\Code\ViewModel\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\ViewModel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Desktop\ViewModel\bin\ViewModel.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\ViewModel.pdb
+C:\Users\oleksandr\Desktop\ViewModel\bin\EntityFramework.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\EntityFramework.xml
+C:\Users\oleksandr\Desktop\ViewModel\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Desktop\ViewModel\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Desktop\ViewModel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Desktop\ViewModel\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\ViewModel\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Desktop\ViewModel\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Desktop\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Desktop\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\project\ViewModel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Desktop\project\ViewModel\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Desktop\project\ViewModel\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\ViewModel.dll.config
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\ViewModel.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\ViewModel.pdb
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\EntityFramework.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\EntityFramework.xml
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\project\ViewModel1\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Desktop\project\ViewModel1\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Desktop\project\ViewModel1\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Desktop\project\ViewModel1\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\ViewModel.dll.config
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\EntityFramework.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\EntityFramework.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel1\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\ViewModel.dll.config
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\ViewModel.pdb
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\EntityFramework.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\EntityFramework.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\obj\Debug\ViewModel.Migrations.InitialCreate.resources
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Google Drive\Code\ViewModel(merged)\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\ViewModel.dll.config
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\ViewModel.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\ViewModel.pdb
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\EntityFramework.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\EntityFramework.xml
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.Migrations.FirstCreated.resources
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.Migrations.PriceCreated.resources
+C:\Users\oleksandr\Desktop\ViewModel(merged)\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.Migrations.FirstCreated.resources
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.Migrations.PriceCreated.resources
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.pdb
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\ViewModel.dll.config
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\ViewModel.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\ViewModel.pdb
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\EntityFramework.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\EntityFramework.SqlServer.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\Kendo.Mvc.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\Newtonsoft.Json.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\System.Web.Mvc.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\EntityFramework.xml
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\EntityFramework.SqlServer.xml
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\Kendo.Mvc.xml
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\oleksandr\Desktop\PetParadisHotel\bin\zh-CN\Kendo.Mvc.resources.dll

@@ -1,0 +1,139 @@
+﻿@model PetHotel.ViewModels.Reservation
+@{
+    ViewBag.Title = "Pet";
+}
+        <h3>Pet Information
+    </h3>
+
+@using (@Html.BeginForm("Pet", "reservation",FormMethod.Post))
+{
+     
+
+    <div>
+        @*@Html.DropDownListFor(m => m.OrderItem.Spiece, new SelectList(@Model.PriceList.PriceList, "Key", "Key"),"Select specie")*@
+
+        @*@(Html.Kendo().ComboBox().Name("spe").BindTo(
+               new SelectList(Model.PriceList.PriceList.Select(
+                     s => new {
+                         Key = s.Key,
+                         Value = s.Key,
+
+                     }
+            ), "Key","Value")).SelectedIndex(0))*@
+
+
+        <br />
+        <div>
+            @Html.LabelFor(m => m.OrderItem.Spiece)
+            &nbsp;  &nbsp;  &nbsp;
+            @Html.ViewBag.specie
+            @Html.HiddenFor(m => m.OrderItem.Spiece, new { @Value = ViewBag.specie })
+            @Html.HiddenFor(m => m.Invoice.OrderDate, new { @Value = DateTime.Now })
+        </div>
+
+        <br />
+        <div>
+            @Html.LabelFor(m => m.OrderItem.Arrival)
+            &nbsp;&nbsp;&nbsp;&nbsp;  @*@Html.EditorFor(m=>m.OrderItem.Arrival)*@
+            @Html.ViewBag.from
+            @Html.HiddenFor(m => m.OrderItem.Arrival, new { @Value = ViewBag.from })
+            @Html.HiddenFor(m => m.OrderItem.NumberOfDays, new { @Value = ViewBag.NumberOfDays })
+        </div>
+        <br />
+        <div>
+            @Html.LabelFor(m => m.OrderItem.Departure)
+            @Html.ViewBag.to
+            @Html.HiddenFor(m => m.OrderItem.Departure, new { @Value = ViewBag.to })
+            @*@Html.EditorFor(m=>m.OrderItem.Departure)*@
+        </div>
+        <div>
+            @Html.Label("Price per day")  &nbsp;&nbsp;&nbsp;&nbsp;    @ViewBag.pricePerday kr.
+            @Html.HiddenFor(m => m.OrderItem.PricePerDay, new { @Value = ViewBag.pricePerday })
+        </div>
+        <div>
+            @Html.Label("Total price:")  &nbsp;&nbsp;&nbsp;&nbsp;    @ViewBag.price kr.
+            @Html.HiddenFor(m => m.Invoice.Totalprice, new {@Value=ViewBag.price})
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.OrderItem.Petname)
+            &nbsp;
+            @Html.ValidationMessageFor(m => m.OrderItem.Petname)
+            @Html.EditorFor(m => m.OrderItem.Petname)
+        </div>
+       
+    </div>
+    <div>
+       
+        <hr />
+        <h3>Customer Information</h3>
+        <div>
+            @Html.LabelFor(m => m.Customer.FirstName)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.FirstName)
+            @Html.ValidationMessageFor(m => m.Customer.FirstName)
+        </div>
+
+
+        <div>
+            @Html.LabelFor(m => m.Customer.LastName)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.LastName)
+            @Html.ValidationMessageFor(m => m.Customer.LastName)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.Customer.Address)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.Address)
+            @Html.ValidationMessageFor(m => m.Customer.Address)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Customer.City)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.City)
+            @Html.ValidationMessageFor(m => m.Customer.City)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Customer.Zip)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.Zip)
+            @Html.ValidationMessageFor(m => m.Customer.Zip)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Customer.Email)
+
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.Email)
+            @Html.ValidationMessageFor(m => m.Customer.Email)
+
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Customer.Phone)
+
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Customer.Phone)
+            @Html.ValidationMessageFor(m => m.Customer.Phone)
+
+        </div>
+        <div>
+
+
+
+        </div>
+
+        <br />
+        @(Html.Kendo().Button().Name("Continue").Content("Continue"))
+        @Html.ValidationSummary()
+    </div>
+
+}
+
+

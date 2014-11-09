@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <!--This bundle was moved by the Telerik VS Extensions for compatibility reasons-->
+    @Scripts.Render("~/bundles/jquery")
+    <link href="@Url.Content("~/Content/kendo/2014.2.1008/kendo.common.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.1008/kendo.mobile.all.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.1008/kendo.dataviz.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.1008/kendo.default.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.1008/kendo.dataviz.default.min.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/kendo/2014.2.1008/jquery.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/kendo/2014.2.1008/kendo.all.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/kendo/2014.2.1008/kendo.aspnetmvc.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/kendo.modernizr.custom.js")"></script>
+</head>
+<body>
+    @(Html.Kendo().Menu().Name("menu").Items(item =>
+        {
+            
+            item.Add().Text("Admin").Action("index","Admin");
+            item.Add().Text("Price").Action("price","Admin");
+            item.Add().Text("Invoices").Action("invoice","Admin");
+
+
+        }))
+    <div class="container body-content">
+       
+
+
+
+
+        @RenderBody()
+
+        @RenderSection("Invoices", required: false)
+    </div>
+    <br />
+    <br />
+    <div>
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

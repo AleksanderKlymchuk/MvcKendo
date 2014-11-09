@@ -1,0 +1,88 @@
+﻿@model PetHotel.Models.OrderItem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>OrderItem</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Invoice.InvoiceId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Invoice.InvoiceId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Spiece)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Spiece)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Petname)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Petname)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Arrival)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Arrival)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Departure)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Departure)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PricePerDay)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PricePerDay)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.NumberOfDays)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NumberOfDays)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

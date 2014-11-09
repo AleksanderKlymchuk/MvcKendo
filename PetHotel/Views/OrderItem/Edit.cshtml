@@ -1,0 +1,93 @@
+﻿@model PetHotel.Models.OrderItem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-horizontal">
+            <h4>OrderItem</h4>
+            <hr />
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.OrderItemID)
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Spiece, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Spiece)
+                    @Html.ValidationMessageFor(model => model.Spiece)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Petname, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Petname)
+                    @Html.ValidationMessageFor(model => model.Petname)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Arrival, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Arrival)
+                    @Html.ValidationMessageFor(model => model.Arrival)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Departure, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Departure)
+                    @Html.ValidationMessageFor(model => model.Departure)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.PricePerDay, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PricePerDay)
+                    @Html.ValidationMessageFor(model => model.PricePerDay)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.NumberOfDays, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NumberOfDays)
+                    @Html.ValidationMessageFor(model => model.NumberOfDays)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.InvoiceId, "InvoiceId", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("InvoiceId", String.Empty)
+                    @Html.ValidationMessageFor(model => model.InvoiceId)
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+    
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</body>
+</html>

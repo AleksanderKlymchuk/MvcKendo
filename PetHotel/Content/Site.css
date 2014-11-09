@@ -1,0 +1,373 @@
+﻿body {
+    padding-top: 10em;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+margin-left: 250px;
+width: 1000px;
+}
+
+/*keep banner centered*/
+.banner img{
+ margin-left: 250px;
+ margin-top: -50px;
+}
+
+.logo img {
+    margin-top: -150px;
+    position: relative;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+   
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+ a
+{
+    font-size:large;
+    font-style:normal;
+   
+    
+}
+ a:hover
+ {
+     text-decoration:none;
+     
+ }
+li a:hover
+{
+    lighting-color:white;
+    font-size: x-large;
+    color: white;
+  
+
+}
+
+
+.nbc
+{
+
+    background: -webkit-linear-gradient(white, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, grey); /* Standard syntax (must be last) */
+    height:5em;
+    width: 1000px;
+    margin-left: 250px;
+
+}
+label
+{
+    margin:1em;
+
+
+}
+
+.divframe
+{
+   width: 100%; height: 30em;
+   background-color:white;
+
+}
+
+.map {
+    position:absolute;
+    margin-top: 75px;
+}
+
+.contactinfo {
+    margin-left: 200px;
+}
+.contactinfo h2 {
+       margin-left: -190px;
+}
+
+.pricecontent {
+    margin-left: 450px;
+}
+
+.hojrecontent {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 450px;
+    width: 500px;
+    float: left;
+    text-align: left;
+    line-height: 200%;
+}
+
+.hojrecontent h2 {
+    text-align: left;
+    margin-left: 0px;
+}
+
+#dropdownlist
+{
+    margin-left:1em;
+}
+.duf
+{
+    width: 25%; height:28em;background-size:20em 16em; background-repeat:no-repeat; float: left;
+    margin-top:1em;
+    text-align:left;
+    background-color:#98ff98;
+    border-radius: 15px;
+    font-family:sans-serif;
+    font-size:large;
+    float:left;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 390px;
+    width: 400px;
+}
+
+.duf h4 {
+    margin-top:6%;
+}
+
+.customerform {
+    background-color:#98ff98;
+        border-radius: 15px;
+                    padding: 10px;
+            width: 350px;
+            float: right;
+     margin-top: -380px;
+     /*overflow: hidden;*/
+}
+
+/*.customerform label {
+        display: block;
+}*/
+
+.customerform input {
+  display: inline-block;
+  float: right;
+}
+
+/*.customerinput1,
+.customerinput2 {
+    width: 50%;
+}
+
+.customerinput1  {
+    float: left;
+}
+
+.customerinput2 {
+        float: right;
+}*/
+
+/*.customerinput3 {
+    float: left;
+}
+
+.customerinput4 {
+    float: right;
+}
+
+.customerinput5 {
+    float: left;
+}
+
+.customerinput6 {
+    float: right;
+}*/
+
+/*.customerinput7 {
+    float: left;
+}*/
+
+footer
+{
+    background-color: #666666;
+    position: relative;
+    bottom:1em;
+    margin-left: 250px;
+    width: 1000px;
+    height: 5em;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+footer h3 {
+    margin-left: 400px;
+    padding-top: 22px;
+    color: white;
+}
+
+h4
+{
+    margin-left:2%;
+    margin-top:2%;
+    font-family:sans-serif;
+    font-size:x-large;
+
+}
+div h2
+{
+   text-align: center;
+   margin-left: -0px;
+}
+
+.heading
+{
+    float:left;
+    position:absolute;
+    left:1em;
+    top:-1.2em;
+    background-image: url('/Images/Logo.jpg');
+    background-size: 90%;
+    text-align:center;
+    text-decoration-color:none;
+    border-top-left-radius:1em;
+    border-bottom-right-radius:1em;
+    height:150px;
+    width:216px;
+    margin-left: -245px;
+    opacity:1;  
+    font-family:sans-serif;
+    font-size:1em;
+    color:white;
+    border-right:inset;
+    border-bottom:inset;
+    border-top:outset;
+
+}
+.ulcl
+{ 
+   
+ font-weight:600;
+ position:absolute;
+ top:0.9em;
+ left:12em;
+ color:black;
+ list-style:none;
+     opacity: 0.7;
+ 
+}
+ul li 
+{
+    margin-right:3em;
+    color:black;
+
+}
+#n1,#n2,#n3,#n4
+{
+    color:black;
+}
+
+
+
+#btn-link
+{
+    float:left;
+    margin-top:2em;
+    margin-left:2em;
+    border:outset;
+    text-align:center;
+    background-color:#C6C6C6;
+    border-radius:20px;
+    width:6em;
+    
+
+}
+
+
+.input
+{
+    height:1.6em;
+    width:15em;
+    border-radius: 10px;
+    
+}
+input
+{
+    height:2em;
+    width:110px;
+    margin-left:0.7em;
+    font-family:sans-serif;
+    border-radius: 10px;
+}
+input:hover
+{
+
+
+    color:#517BA3
+}
+
+#menu
+{
+    position:fixed;
+    top:0em;
+    width:100%;
+    background-color:black;
+    opacity:0.8;
+    color:white;
+    font-size:x-large;
+    height:5em;
+ 
+}
+ul li
+{
+    color:black;
+
+} 
+
+.bookingcontent {
+    position: absolute;
+    margin-left: 10%;
+    top: 30%;
+    width: 70%;
+    height: 40%;
+}
+
+.tableelem li {
+    float: left;
+}
+.noneBorder{
+    border-top-style:dashed;
+   
+
+}
+#submenu_mn_active
+{
+    background-color:#E2D6D6;
+}
+#submenu
+{   border:none;
+    background-color:transparent;
+
+}

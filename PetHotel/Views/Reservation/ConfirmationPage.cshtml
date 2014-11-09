@@ -1,0 +1,31 @@
+﻿@using PetHotel.Models
+@model IEnumerable<Invoice>
+@{
+    ViewBag.Title = "MakeReservation";
+}
+
+<h2>Invoice</h2>
+@foreach(Invoice inv in Model)
+{
+    
+    
+    
+    
+}
+<div>
+
+    @(Html.Kendo().Grid(Model).Name("Invoice").Columns(col => {
+
+    
+    col.Bound(customerF => customerF.Customer.FirstName);
+    col.Bound(customerL => customerL.Customer.LastName);
+    col.Bound(customerP => customerP.Customer.Phone);
+    //col.Bound(petname => petname.OrderItems.Select(r=>r.Petname));
+    //col.Bound(from => from.OrderItem.Arrival);
+    //col.Bound(to => to.OrderItem.Departure);
+    //col.Bound(numdays => numdays.OrderItem.NumberOfDays);
+    col.Bound(specie => specie.Totalprice);
+})
+)
+</div>
+

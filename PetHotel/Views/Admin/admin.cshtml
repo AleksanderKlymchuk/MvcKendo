@@ -1,0 +1,102 @@
+﻿@model List<PetHotel.ViewModels.Reservation>
+
+@{
+    Layout = "~/Views/Shared/Adminlayout.cshtml";
+
+}
+
+
+@section Invoices{
+
+
+  
+
+
+}
+
+<div class="bookingcontent">
+    <ul class="tableelem">
+        <li><a href="#">This week's intakes</a></li>
+        <li><a href="#">Next week's intakes</a></li>
+        <li><a href="#">This month's intakes</a></li>
+    </ul>
+
+</div>
+
+<div class="table-bordered">
+    <table>
+        <thead>
+            <tr>
+                <th>Specie</th>
+                <th>No. of days</th>
+                <th>Period</th>
+                <th>Order Details</th>
+                <th>Owner Details</th>
+                <th>Special Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.OrderItem.Spiece</td>
+                    <td>@item.OrderItem.NumberOfDays</td>
+                    <td>@item.OrderItem.Arrival "-" @item.OrderItem.Departure</td>
+                    <td><a href="~/Views/Admin/invoice.cshtml">See details here</a></td>
+                    <td><a href="~/Views/Admin/invoice.cshtml">See details here</a></td>
+                    <td><a href="~/Views/Admin/invoice.cshtml">See details here</a></td>
+                </tr>
+            }
+        </tbody>
+        <!--Add footer for totals-->
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br />
+<br />
+
+@*@(Html.Kendo().Grid((IEnumerable<ViewModel.Infrastructure.PriceLists>)ViewBag.price).Name("grid").Columns(
+          col =>
+          {
+              col.Bound(spice =>spice.Spice);
+              col.Bound(price => price.Price);  
+          }
+).Groupable().Filterable()
+
+
+)*@
+
+
+
+<br />
+<br />
+@*@(Html.Kendo().Grid(Model).Name("Customer").Columns(col=>
+            {
+                col.Bound(id => id.ID);
+                col.Bound(name => name.FirstName);
+                col.Bound(lname => lname.LastName);
+                col.Bound(address => address.Address);
+                col.Bound(city => city.City);
+                col.Bound(zip => zip.Zip);
+                col.Bound(phone => phone.Phone);
+                col.Bound(email => email.Email);
+                
+            }
+            )
+            .Groupable()
+            
+)*@

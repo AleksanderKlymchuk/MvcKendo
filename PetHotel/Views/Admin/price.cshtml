@@ -1,0 +1,99 @@
+﻿@using PetHotel.Models
+@model IEnumerable<Price>
+
+@{
+    ViewBag.Title = "price";
+    Layout = "~/Views/Shared/Adminlayout.cshtml";
+}
+
+<h4>Prices</h4>
+<br />
+<br />
+@{
+    
+    List<string> list = new List<string>();
+    list.AddRange(Model.Select(s => s.Spice).Distinct());
+    
+    
+}
+
+@*@Html.Action("ListOfprices", "reservation")*@
+
+@Html.TextBox("search")
+<button class="btn" id="s-btn">Search</button>
+<br />
+<br />
+
+@(Html.Kendo().Menu().Name("submenu").Items(item =>
+{
+    item.Add().Text("All Elements").HtmlAttributes(new { dataS = "All-elements", id="all-elements" });
+    foreach (var i in list)
+    {
+        item.Add().Text(i).HtmlAttributes(new { dataS = i });
+    }
+   
+    
+
+}))
+<br />
+<br />
+@(Html.Kendo().Grid(Model).Name("grid").Columns(col =>{ 
+ 
+      col.Bound(sps=>sps.Spice);
+      col.Bound(pr => pr.Sum);
+
+
+}))
+<script>
+    (function ($) {
+
+        $("li").addClass("noneBorder")
+        var active = localStorage.getItem("dataS");
+        
+        $('li[dataS=' + active + ']').attr("id", "submenu_mn_active")
+        if (active !== "All-elements") {
+
+            var link = ('<a href="#" data-oppret="'+active+'">Oppret Element</a>')
+            $("#grid").before(link)
+        }
+
+        $("#s-btn,#all-elements").on("click", function () {
+            localStorage.clear();
+            var datafilter=$("#search").val();
+            //var filter = [];
+            //filter.push({ field: "Spice", operator: "contains", value: datafilter });
+            $("#grid").data("kendoGrid").dataSource.filter({ field: "Spice", operator: "contains", value: datafilter });
+
+
+
+        })
+
+        $(".k-item").on("click", function () {
+
+            var attr = $(this).attr("dataS");
+            localStorage.setItem("dataS", attr)
+            console.log(localStorage.getItem("dataS"))
+           var datafilter = $(this).children("span").html();
+           $("#grid").data("kendoGrid").dataSource.filter({ field: "Spice", operator: "eq", value: datafilter });
+          
+           
+            
+
+        })
+
+
+    })(jQuery)
+    //$(window).onload(function () {
+
+       
+
+
+
+
+    //})
+
+    window.onload = function () {
+        //localStorage.clear();
+
+    }
+</script>

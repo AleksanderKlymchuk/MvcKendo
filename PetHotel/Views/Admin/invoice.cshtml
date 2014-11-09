@@ -1,0 +1,72 @@
+﻿@using PetHotel.Models
+@model IEnumerable<PetHotel.Models.Invoice>
+
+@{
+    Layout = "~/Views/Shared/Adminlayout.cshtml";
+
+}
+
+
+
+@foreach(Invoice invoice in Model)
+{
+   
+    
+    foreach(var orderItem in invoice.OrderItems)
+    {
+        
+       <p>@orderItem.Petname</p>
+        
+    }
+   
+    
+    
+}
+
+@(Html.Kendo().Grid(Model).Name("grid").Columns(
+                  col =>
+                  {
+                      col.Bound(orderdate => orderdate.OrderDate);
+                      col.Bound(firstname => firstname.Customer.FirstName);
+                      col.Bound(lastname => lastname.Customer.LastName);
+                     
+                      //col.Bound(Order => Order.OrderItems.Where(inv=>inv.InvoiceId==Order.InvoiceId).Select(p=>p.Petname));
+                       
+                       
+                  }
+        ).Groupable().Filterable()
+
+
+    )
+
+
+
+<script>
+   
+    function getData() {
+        
+       
+        $("#Search").on("change", function () {
+
+          
+            return ($("#Search").val())
+            
+            
+
+        })
+
+        
+       
+    }
+   
+   ( function(){
+
+
+})(jQuery);
+    
+
+
+
+</script>
+
+

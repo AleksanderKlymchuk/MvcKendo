@@ -1,0 +1,77 @@
+﻿@model IEnumerable<PetHotel.Models.OrderItem>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Invoice.InvoiceId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Spiece)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Petname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Arrival)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departure)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfDays)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Invoice.InvoiceId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Spiece)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Petname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arrival)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departure)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PricePerDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfDays)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.OrderItemID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.OrderItemID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.OrderItemID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

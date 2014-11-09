@@ -1,0 +1,40 @@
+﻿
+@model string
+@using PetHotel.Infrastructure
+
+
+@{
+    ViewBag.Title = "index";
+}
+
+
+
+<h2></h2>
+<table>
+    <thead>
+        <tr class="td">
+            <td>Specie</td>
+            <td>Price</td>
+        </tr>
+
+        @foreach (KeyValuePair<string, decimal> item in @ViewBag.pricelist)
+        {
+            <tr>
+                <td>
+                    @item.Key
+                </td>
+                <td>
+                    @string.Format("{0:.00}", @item.Value)
+                </td>
+            </tr>
+
+
+
+        }
+
+    </thead>
+
+
+
+
+</table>

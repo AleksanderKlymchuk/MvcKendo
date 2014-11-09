@@ -1,0 +1,51 @@
+﻿@model PetHotel.ViewModels.Reservation
+
+<div class="duf">
+
+
+
+    @using (Html.BeginForm("index", "reservation", FormMethod.Post))
+    {
+
+        string month = DateTime.Today.ToString("MM");
+        DateTime week = DateTime.Now;
+
+
+        string day = DateTime.Today.ToString("dd");
+        week.AddDays(16);
+        string checkoutday = week.ToString("dd");
+        <label>Species:</label>  @(Html.Kendo().ComboBox().Name("spe").BindTo(
+   new SelectList(Model.PriceList.PriceList.Select(
+         s => new
+         {
+             Key = s.Key,
+             Value = s.Key
+         }
+), "Key", "Value")).SelectedIndex(0))
+        @*@Html.DropDownListFor(m => m.OrderItem.Spiece, new SelectList(@Model.PriceList.PriceList, "Key", "Key"), null, new {Name="spe", @class = "input", id = "dropdownlist" })*@
+        <label>Amount:</label>
+        @(Html.Kendo().NumericTextBox().Name("Amount").Value(@ViewBag.amount).Format("0"))
+
+        <label>Checkin:</label>
+        @*<input type="date" class="input" value="@DateTime.Now.Year-@month-@day" name="startDate" />*@
+        @(Html.Kendo().DatePicker().Name("startDate").Value(DateTime.Today))
+
+        <label>Checkout:</label>
+
+        @*<input type="date" class="input" value="@DateTime.Now.Year-@month-@checkoutday" name="endDate" />*@
+        @(Html.Kendo().DatePicker().Name("endDate").Value(DateTime.Today.AddDays(1)))
+        <br />
+        <br />
+        <input type="submit" id="btn-1" name="sub-btn" value="Book" accesskey='g' />
+        <input type="submit" id="btn" name="sub-btn" value="Check Price" accesskey='g' />
+        <br />
+        <div>
+
+            <h4>Price: @ViewBag.price</h4>
+        </div>
+
+
+
+    }
+
+</div>

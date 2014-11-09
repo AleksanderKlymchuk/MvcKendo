@@ -1,0 +1,4 @@
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\PetParadisHotel.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.Migrations.FirstCreated.resources
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\ViewModel.Migrations.PriceCreated.resources
+C:\Users\oleksandr\Desktop\PetParadisHotel\obj\Debug\PetParadisHotel.csproj.GenerateResource.Cache
