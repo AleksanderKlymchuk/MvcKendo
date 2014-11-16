@@ -5,13 +5,61 @@
 }
 
 <h2>Invoice</h2>
-@foreach(Invoice inv in Model)
-{
-    
-    
-    
-    
-}
+<table class="table">
+    <thead>
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Phone</td>
+            <td>Email</td>
+            <td>Pet Name</td>
+            <td>Number of days</td>
+            <td>Total Price</td>
+        </tr>
+    </thead>
+    <tbody>
+
+      @foreach (Invoice inv in Model)
+        {
+             <tr>
+                 <td>
+                     @inv.Customer.FirstName
+                 </td>
+                 <td>
+                     @inv.Customer.LastName
+                 </td>
+                 <td>
+                     @inv.Customer.Phone
+                 </td>
+                 <td>
+                     @inv.Customer.Email
+                 </td>
+                
+                     @foreach(OrderItem order in inv.OrderItems)
+                     {
+                         <td>
+                         @order.Petname
+                         </td>
+                         <td>
+                          @order.NumberOfDays
+                         </td>
+                         
+                     }
+                 <td>@inv.Totalprice</td>
+                
+             </tr>
+
+
+
+         }
+
+    </tbody>
+
+
+
+</table>
+<br />
+<br />
 <div>
 
     @(Html.Kendo().Grid(Model).Name("Invoice").Columns(col => {

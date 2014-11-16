@@ -23,6 +23,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Sum)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
             <th></th>
         </tr>
     
@@ -33,6 +36,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Sum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

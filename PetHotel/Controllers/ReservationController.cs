@@ -18,14 +18,14 @@ namespace PetHotel.Controllers
 {
     public class ReservationController : Controller
     {
-        public ViewModelContext db = new ViewModelContext();
+        public ViewModelContext Db = new ViewModelContext();
         //
         // GET: /Reservation/
        
         public ActionResult Index()
         {
             ViewBag.amount = 1;
-            var data = db.Invoices.Include(r => r.Customer).Include(n => n.OrderItems);
+            var data = Db.Invoices.Include(r => r.Customer).Include(n => n.OrderItems);
          
             return View(data.ToList());
 
@@ -139,19 +139,29 @@ namespace PetHotel.Controllers
         public ActionResult Pet([Bind(Include = "OrderItemID,Spiece,Petname,NumberOfDays,Arrival,Departure,PricePerDay,Customer,Invoice,OrderItem,OrderDate,CustomerID,FirstName,LastName,Address,City,Zip,Email,Phone,Totalprice")]Reservation reserv)
         {
            
-            Repository rep = new Repository();
+            //Repository rep = new Repository();
             Reservation reservation = new Reservation();
-            
-           
-            
-
             if (ModelState.IsValid)
             {
-                db.Customers.Add(reserv.Customer);
-                db.Invoices.Add(reserv.Invoice);
-                db.OrderItems.Add(reserv.OrderItem);
-                db.SaveChanges();
-                return View("ConfirmationPage",db.Invoices);
+                if (Db.Customers.Any(c=>c.Email==reserv.Customer.Email))
+                {
+                    reserv.Customer = Db.Customers.Where(c => c.Email == reserv.Customer.Email).First();
+                    Db.Entry(reserv.Customer).State = EntityState.Modified;
+                    reserv.Invoice.Customer = reserv.Customer;
+                }
+                else
+                {
+                    Db.Customers.Add(reserv.Customer);
+
+                }
+               
+
+
+
+                Db.Invoices.Add(reserv.Invoice);
+                Db.OrderItems.Add(reserv.OrderItem);
+                Db.SaveChanges();
+                return RedirectToAction("ConfirmationPage", new {id=reserv.Invoice.InvoiceId});
 
 
             }
@@ -162,6 +172,16 @@ namespace PetHotel.Controllers
             ViewBag.pricePerday = reserv.OrderItem.PricePerDay;
             return View(reservation);
 
+        }
+        public ActionResult ConfirmationPage(int ?id)
+        {
+            if (id!=null)
+            {
+                var invoice = Db.Invoices.Where(c => c.InvoiceId == id);
+                return View(invoice);
+            }
+            return View();
+          
         }
 
         public ActionResult Prices(int?id)

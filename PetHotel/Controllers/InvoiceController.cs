@@ -13,12 +13,12 @@ namespace PetHotel.Controllers
 {
     public class InvoiceController : Controller
     {
-        private ViewModelContext db = new ViewModelContext();
+        private ViewModelContext Db = new ViewModelContext();
 
         // GET: /Invoice/
         public ActionResult Index()
         {
-            var invoices = db.Invoices.Include(i => i.Customer).Include(o=>o.OrderItems);
+            var invoices = Db.Invoices.Include(i => i.Customer).Include(o=>o.OrderItems);
             return View(invoices.ToList());
         }
 
@@ -29,7 +29,7 @@ namespace PetHotel.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Invoice invoice = db.Invoices.Find(id);
+            Invoice invoice = Db.Invoices.Find(id);
             if (invoice == null)
             {
                 return HttpNotFound();
@@ -40,7 +40,7 @@ namespace PetHotel.Controllers
         // GET: /Invoice/Create
         public ActionResult Create()
         {
-            ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "FirstName");
+            ViewBag.CustomerID = new SelectList(Db.Customers, "CustomerID", "FirstName");
             return View();
         }
 
@@ -53,12 +53,12 @@ namespace PetHotel.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Invoices.Add(invoice);
-                db.SaveChanges();
+                Db.Invoices.Add(invoice);
+                Db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
+            ViewBag.CustomerID = new SelectList(Db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
             return View(invoice);
         }
 
@@ -69,12 +69,12 @@ namespace PetHotel.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Invoice invoice = db.Invoices.Find(id);
+            Invoice invoice = Db.Invoices.Find(id);
             if (invoice == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
+            ViewBag.CustomerID = new SelectList(Db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
             return View(invoice);
         }
 
@@ -87,11 +87,11 @@ namespace PetHotel.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(invoice).State = EntityState.Modified;
-                db.SaveChanges();
+                Db.Entry(invoice).State = EntityState.Modified;
+                Db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
+            ViewBag.CustomerID = new SelectList(Db.Customers, "CustomerID", "FirstName", invoice.CustomerID);
             return View(invoice);
         }
 
@@ -102,7 +102,7 @@ namespace PetHotel.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Invoice invoice = db.Invoices.Find(id);
+            Invoice invoice = Db.Invoices.Find(id);
             if (invoice == null)
             {
                 return HttpNotFound();
@@ -115,9 +115,9 @@ namespace PetHotel.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Invoice invoice = db.Invoices.Find(id);
-            db.Invoices.Remove(invoice);
-            db.SaveChanges();
+            Invoice invoice = Db.Invoices.Find(id);
+            Db.Invoices.Remove(invoice);
+            Db.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -125,7 +125,7 @@ namespace PetHotel.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                Db.Dispose();
             }
             base.Dispose(disposing);
         }

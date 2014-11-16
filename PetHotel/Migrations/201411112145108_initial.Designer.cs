@@ -7,13 +7,13 @@ namespace PetHotel.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.0.0-20911")]
-    public sealed partial class FirstCreated : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(FirstCreated));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201411070913324_FirstCreated"; }
+            get { return "201411112145108_initial"; }
         }
         
         string IMigrationMetadata.Source

@@ -13,7 +13,7 @@ namespace PetHotel.Models
         public int ID { get; set; }
         public string Spice { get; set; }
         public decimal Sum { get; set; }
-
+        public string Category { get; set; }
 
 
         

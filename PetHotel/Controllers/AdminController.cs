@@ -7,7 +7,8 @@ using PetHotel.Infrastructure;
 using System.Data.Entity;
 using PetHotel.Models;
 using DAL;
-
+using Kendo.Mvc.UI;
+using Kendo.Mvc.Extensions;
 namespace PetHotel.Controllers
 {
     public class AdminController : Controller
@@ -20,7 +21,7 @@ namespace PetHotel.Controllers
         public ActionResult Index()
         {
             Repository rep = new Repository();
-           
+          
             return View("Admin",rep.listOfReservation);
         }
 
@@ -59,8 +60,15 @@ namespace PetHotel.Controllers
 
 
         }
-       
 
+        public ActionResult Price_Read([DataSourceRequest]DataSourceRequest request)
+        {
+
+            var price = db.Prices;
+            DataSourceResult result = price.ToDataSourceResult(request);
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
+      
 
 	}
 }

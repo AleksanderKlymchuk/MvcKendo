@@ -10,18 +10,8 @@
      
 
     <div>
-        @*@Html.DropDownListFor(m => m.OrderItem.Spiece, new SelectList(@Model.PriceList.PriceList, "Key", "Key"),"Select specie")*@
-
-        @*@(Html.Kendo().ComboBox().Name("spe").BindTo(
-               new SelectList(Model.PriceList.PriceList.Select(
-                     s => new {
-                         Key = s.Key,
-                         Value = s.Key,
-
-                     }
-            ), "Key","Value")).SelectedIndex(0))*@
-
-
+         @(Html.Kendo().TextBox().Name("text"))
+        @Html.TextBox("Hello")
         <br />
         <div>
             @Html.LabelFor(m => m.OrderItem.Spiece)

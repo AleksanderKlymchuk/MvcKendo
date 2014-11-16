@@ -3,7 +3,7 @@ namespace PetHotel.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class FirstCreated : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -62,6 +62,17 @@ namespace PetHotel.Migrations
                     })
                 .PrimaryKey(t => t.ID);
             
+            CreateTable(
+                "dbo.Prices",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Spice = c.String(),
+                        Sum = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        Category = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
+            
         }
         
         public override void Down()
@@ -70,6 +81,7 @@ namespace PetHotel.Migrations
             DropForeignKey("dbo.Invoices", "CustomerID", "dbo.Customers");
             DropIndex("dbo.OrderItems", new[] { "InvoiceId" });
             DropIndex("dbo.Invoices", new[] { "CustomerID" });
+            DropTable("dbo.Prices");
             DropTable("dbo.PriceLists");
             DropTable("dbo.OrderItems");
             DropTable("dbo.Invoices");

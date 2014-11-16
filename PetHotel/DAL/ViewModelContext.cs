@@ -17,7 +17,7 @@ namespace DAL
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public ViewModelContext() : base("name=ViewModelContext")
+        public ViewModelContext() : base("name=PetContext")
         {
         }
 

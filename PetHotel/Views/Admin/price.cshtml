@@ -10,90 +10,84 @@
 <br />
 <br />
 @{
-    
+
     List<string> list = new List<string>();
-    list.AddRange(Model.Select(s => s.Spice).Distinct());
-    
-    
+    list.AddRange(Model.Select(c => c.Category).Distinct());
+
+
+}
+<ul id="submenu">
+    <li class="k-item"><a>All Elements</a></li>
+@{foreach (var item in list)
+{
+    <li class="k-item" ><a>@item</a></li>
+
 }
 
-@*@Html.Action("ListOfprices", "reservation")*@
+}
+</ul>
 
+      <br />
+<br />
+<br />
 @Html.TextBox("search")
 <button class="btn" id="s-btn">Search</button>
 <br />
 <br />
+@(Html.Kendo().Grid<PetHotel.Models.Price>().Name("grid")
 
-@(Html.Kendo().Menu().Name("submenu").Items(item =>
+.DataSource(dataSource =>
+    dataSource.Ajax()
+    .Read(read => read
+        .Action("Price_Read", "Admin")
+        )
+
+    )
+
+
+.Columns(col =>
 {
-    item.Add().Text("All Elements").HtmlAttributes(new { dataS = "All-elements", id="all-elements" });
-    foreach (var i in list)
-    {
-        item.Add().Text(i).HtmlAttributes(new { dataS = i });
-    }
-   
-    
 
-}))
-<br />
-<br />
-@(Html.Kendo().Grid(Model).Name("grid").Columns(col =>{ 
- 
-      col.Bound(sps=>sps.Spice);
-      col.Bound(pr => pr.Sum);
+    col.Bound(sps => sps.Spice).Filterable(true).Sortable(true);
+    col.Bound(cat => cat.Category);
+    col.Bound(pr => pr.Sum);
 
 
-}))
+}).Filterable().Sortable())
 <script>
     (function ($) {
+        var data = null;
+        $(".k-item a").on("click", function () {
+            $('#menu-active').attr("id","")
+            $(this).attr("id","menu-active")
+            datafilter = $(this).html();
+            if (datafilter !== "All Elements") {
 
-        $("li").addClass("noneBorder")
-        var active = localStorage.getItem("dataS");
-        
-        $('li[dataS=' + active + ']').attr("id", "submenu_mn_active")
-        if (active !== "All-elements") {
+                $("#grid").data("kendoGrid").dataSource.filter({ field: "Category", operator: "eq", value: datafilter });
+                data = datafilter;
 
-            var link = ('<a href="#" data-oppret="'+active+'">Oppret Element</a>')
-            $("#grid").before(link)
-        }
+            }
+            else {
 
-        $("#s-btn,#all-elements").on("click", function () {
-            localStorage.clear();
-            var datafilter=$("#search").val();
-            //var filter = [];
-            //filter.push({ field: "Spice", operator: "contains", value: datafilter });
-            $("#grid").data("kendoGrid").dataSource.filter({ field: "Spice", operator: "contains", value: datafilter });
-
-
-
+                $("#grid").data("kendoGrid").dataSource.filter({});
+                data = "";
+            }
         })
+        $("#s-btn").on("click", function (e) {
+            var datafilter = $("#search").val();
+            var filter = [];
+            if (datafilter, data) {
+                filter.push({ field: "Spice", operator: "contains", value: datafilter }, { field: "Category", operator: "eq", value: data });
+                $("#grid").data("kendoGrid").dataSource.filter(filter);
+            }
+            else {
 
-        $(".k-item").on("click", function () {
-
-            var attr = $(this).attr("dataS");
-            localStorage.setItem("dataS", attr)
-            console.log(localStorage.getItem("dataS"))
-           var datafilter = $(this).children("span").html();
-           $("#grid").data("kendoGrid").dataSource.filter({ field: "Spice", operator: "eq", value: datafilter });
-          
-           
-            
+                $("#grid").data("kendoGrid").dataSource.filter({ field: "Spice", operator: "contains", value: datafilter });
+            }
 
         })
 
 
     })(jQuery)
-    //$(window).onload(function () {
 
-       
-
-
-
-
-    //})
-
-    window.onload = function () {
-        //localStorage.clear();
-
-    }
 </script>

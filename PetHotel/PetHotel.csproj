@@ -137,20 +137,16 @@
     <Compile Include="Infrastructure\PriceLists.cs" />
     <Compile Include="Infrastructure\Repository.cs" />
     <Compile Include="InvoiceController.cs" />
-    <Compile Include="Migrations\201411070913324_FirstCreated.cs" />
-    <Compile Include="Migrations\201411070913324_FirstCreated.Designer.cs">
-      <DependentUpon>201411070913324_FirstCreated.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411071020421_PriceCreated.cs" />
-    <Compile Include="Migrations\201411071020421_PriceCreated.Designer.cs">
-      <DependentUpon>201411071020421_PriceCreated.cs</DependentUpon>
+    <Compile Include="Migrations\201411112145108_initial.cs" />
+    <Compile Include="Migrations\201411112145108_initial.Designer.cs">
+      <DependentUpon>201411112145108_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\OrderItem.cs" />
     <Compile Include="DAL\ViewModelContext.cs" />
-    <Compile Include="Models\PriceLists.cs" />
+    <Compile Include="Models\Price.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\Reservation.cs" />
   </ItemGroup>
@@ -689,11 +685,6 @@
     <Content Include="Views\Admin\price.cshtml" />
     <Content Include="Views\Admin\invoice.cshtml" />
     <Content Include="Views\Shared\ListOfprices.cshtml" />
-    <Content Include="Views\Price\Create.cshtml" />
-    <Content Include="Views\Price\Delete.cshtml" />
-    <Content Include="Views\Price\Details.cshtml" />
-    <Content Include="Views\Price\Edit.cshtml" />
-    <Content Include="Views\Price\Index.cshtml" />
     <Content Include="Views\Customer\Create.cshtml" />
     <Content Include="Views\Customer\Delete.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
@@ -709,6 +700,11 @@
     <Content Include="Views\OrderItem\Details.cshtml" />
     <Content Include="Views\OrderItem\Edit.cshtml" />
     <Content Include="Views\OrderItem\Index.cshtml" />
+    <Content Include="Views\Price\Create.cshtml" />
+    <Content Include="Views\Price\Delete.cshtml" />
+    <Content Include="Views\Price\Details.cshtml" />
+    <Content Include="Views\Price\Edit.cshtml" />
+    <Content Include="Views\Price\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -718,11 +714,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201411070913324_FirstCreated.resx">
-      <DependentUpon>201411070913324_FirstCreated.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411071020421_PriceCreated.resx">
-      <DependentUpon>201411071020421_PriceCreated.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201411112145108_initial.resx">
+      <DependentUpon>201411112145108_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

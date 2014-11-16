@@ -68,14 +68,7 @@ input[type="checkbox"].input-validation-error {
      text-decoration:none;
      
  }
-li a:hover
-{
-    lighting-color:white;
-    font-size: x-large;
-    color: white;
-  
 
-}
 
 
 .nbc
@@ -340,11 +333,12 @@ input:hover
     height:5em;
  
 }
-ul li
+#menu ul li
 {
-    color:black;
+    display:inline;
+}
 
-} 
+ 
 
 .bookingcontent {
     position: absolute;
@@ -366,8 +360,20 @@ ul li
 {
     background-color:#E2D6D6;
 }
-#submenu
-{   border:none;
-    background-color:transparent;
+ ul li
+{   text-decoration:none;
+   display:inline;
+}
+#submenu a:hover
+{   cursor:pointer;
+    background-color:lightblue;
+    color:white;
+}
+#menu-active
+{
+
+    background-color:lightblue;
+
+    color:white;
 
 }

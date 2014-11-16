@@ -47,7 +47,7 @@ namespace PetHotel.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="ID,Spice,Sum")] Price price)
+        public ActionResult Create([Bind(Include="ID,Spice,Sum,Category")] Price price)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace PetHotel.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="ID,Spice,Sum")] Price price)
+        public ActionResult Edit([Bind(Include="ID,Spice,Sum,Category")] Price price)
         {
             if (ModelState.IsValid)
             {

@@ -23,7 +23,7 @@
     <script src="@Url.Content("~/Scripts/kendo.modernizr.custom.js")"></script>
 </head>
 <body>
-    @(Html.Kendo().Menu().Name("menu").Items(item =>
+    @*@(Html.Kendo().Menu().Name("menu").Items(item =>
         {
             
             item.Add().Text("Admin").Action("index","Admin");
@@ -31,7 +31,15 @@
             item.Add().Text("Invoices").Action("invoice","Admin");
 
 
-        }))
+        }))*@
+    <div id="menu">
+        <ul>
+            <li>@Html.ActionLink("Admin", "Admin")</li>
+            <li>@Html.ActionLink("Price", "Price")</li>
+            <li>@Html.ActionLink("Invoices", "invoice")</li>
+        </ul>
+    </div>
+
     <div class="container body-content">
        
 
