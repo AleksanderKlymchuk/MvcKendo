@@ -69,3 +69,9 @@ C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\obj\Debug\PetHote
 C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\obj\Debug\PetHotel.pdb
 C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\obj\Debug\PetHotel.Migrations.initial.resources
 C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\obj\Debug\PetHotel.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Net.Http.Formatting.dll
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Web.Http.dll
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Web.Http.WebHost.dll
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Net.Http.Formatting.xml
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Web.Http.xml
+C:\Users\oleksandr\Documents\GitHub\MvcKendo\MvcKendo\PetHotel\bin\System.Web.Http.WebHost.xml

@@ -63,9 +63,11 @@ namespace PetHotel.Controllers
 
         public ActionResult Price_Read([DataSourceRequest]DataSourceRequest request)
         {
-
-            var price = db.Prices;
+            List<Price> price = new List<Price>();
+            var p = db.Prices;
+            price.AddRange(p);
             DataSourceResult result = price.ToDataSourceResult(request);
+           
             return Json(result, JsonRequestBehavior.AllowGet);
         }
       

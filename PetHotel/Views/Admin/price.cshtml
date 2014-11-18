@@ -34,7 +34,7 @@
 <button class="btn" id="s-btn">Search</button>
 <br />
 <br />
-@(Html.Kendo().Grid<PetHotel.Models.Price>().Name("grid")
+@(Html.Kendo().Grid(Model).Name("grid")
 
 .DataSource(dataSource =>
     dataSource.Ajax()
